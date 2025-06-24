@@ -16,7 +16,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo '🔧 Building the application...'
-                // Add your real build command here
+                // Add your real build command here (e.g., mvn clean install)
             }
         }
 
